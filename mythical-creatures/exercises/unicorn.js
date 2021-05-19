@@ -8,7 +8,7 @@ class Unicorn {
   }
 
   says(message) {
-    return `**;* ${message} *;**`;
+    return `**  ;* ${message} *;**`;
   }
 }
 

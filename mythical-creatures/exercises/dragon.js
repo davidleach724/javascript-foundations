@@ -7,19 +7,15 @@ class Dragon {
   }
 
   greet() {
-    return `Hi, ${this.rider}!`
+    return `Hi, ${this.rider}!`;
   }
 
   eat() {
     this.eatCount += 1;
-    if(this.eatCount >= 3) {
+    if (this.eatCount >= 3) {
       this.hungry = false;
     }
   }
-
-
 }
-
-
 
 module.exports = Dragon;
